@@ -8,7 +8,7 @@ in a sorted format but timestamps are provided.
 The data was sourced from the following URL:
 http://forums.somethingawful.com/banlist.php
 
-To read the data, treat each entry from the `data` as per the following example
+To read the data, treat each entry from the `data` key as per the following example
 code:
 
     {
