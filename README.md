@@ -11,20 +11,20 @@ http://forums.somethingawful.com/banlist.php
 To read the data, treat each entry from the `data` as per the following example
 code:
 
-  {
-      "CleanComment": "No no no no no.  User loses posting privileges for 6 hours.",
-      "TargetUserID": 106021,
-      "ModApproverName": "Squeezy Farm",
-      "BanLength": 21600,
-      "EventTime": 1441807980,
-      "ModRequestorName": "Squeezy Farm",
-      "RawComment": "Tm8gbm8gbm8gbm8gbm8uICBVc2VyIGxvc2VzIHBvc3RpbmcgcHJpdmlsZWdlcyBmb3IgNiBob3Vycy4=",
-      "BanType": "probation",
-      "ModRequestorID": 152981,
-      "TargetUserName": "Bill Dungsroman",
-      "PostID": 449978584,
-      "ModApproverID": 152981
-  },
+    {
+        "CleanComment": "No no no no no.  User loses posting privileges for 6 hours.",
+        "TargetUserID": 106021,
+        "ModApproverName": "Squeezy Farm",
+        "BanLength": 21600,
+        "EventTime": 1441807980,
+        "ModRequestorName": "Squeezy Farm",
+        "RawComment": "Tm8gbm8gbm8gbm8gbm8uICBVc2VyIGxvc2VzIHBvc3RpbmcgcHJpdmlsZWdlcyBmb3IgNiBob3Vycy4=",
+        "BanType": "probation",
+        "ModRequestorID": 152981,
+        "TargetUserName": "Bill Dungsroman",
+        "PostID": 449978584,
+        "ModApproverID": 152981
+    },
 
 Each of the following keys in each item in the list can be treated as the
 following:
