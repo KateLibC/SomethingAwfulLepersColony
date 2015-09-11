@@ -1,9 +1,9 @@
 Something Awful Lepers Colony Data
 ==================================
 
-This JSON file (`data.json`) contains all ban, probation, and permaban detail
+This JSON file (`data.json`) contains all ban, probation, and permaban details
 from August 7th, 2004 through to September 9th, 2015. The data is not provided
-in a sorted format but timestamps are provided.
+in a sorted format but timestamps are included in epoch format for each entry.
 
 The data was sourced from the following URL:
 http://forums.somethingawful.com/banlist.php
@@ -53,3 +53,7 @@ is a null value in lieu of what may be a string or integer.
 
 The data is provided as is so please do not complain if something is missing
 or there are problems with the data.
+
+Update
+------
+Data is now available in CSV, PostgresSQL, and MySQL/MariaDB formats.
